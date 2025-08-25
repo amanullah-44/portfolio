@@ -178,16 +178,15 @@ export const DATA = {
       dates: "Dec 2024 - Present",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "Comprehensive automotive marketplace platform similar to PakWheels with multi-product capabilities for cars, bikes, and auto parts. Includes admin dashboards, auction systems, inspection features, and encrypted dealer/user route management for secure transactions.",
       technologies: [
         "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "MongoDB",
         "TailwindCSS",
-        "Stripe",
         "Shadcn UI",
-        "Magic UI",
       ],
       links: [
         {
@@ -197,102 +196,147 @@ export const DATA = {
         },
       ],
       image: "",
-      video:
-        "/projects/caradvisers.webm",
+      video: "/projects/caradvisers.webm",
     },
     {
       title: "Street Food",
       href: "https://streetfoodmarkets.co/",
-      dates: "June 2023 - Present",
+      dates: "June 2023 - Nov 2023",
       active: true,
       description:
-        "A multivendor food street app",
-      technologies: [
-        "React Js",
-        "Mui",
-        "Express Js",
-        "Mongodb",
-        "Full Stack"
-      ],
+        "Multi-vendor food marketplace app with vendor dashboards, product listings, order management, and payment integration. Features real-time updates and smooth customer/vendor workflows.",
+      technologies: ["React", "MUI", "Express", "MongoDB", "Node.js", "Full Stack"],
       links: [
         {
           type: "Website",
           href: "https://streetfoodmarkets.co/",
           icon: <Icons.globe className="size-3" />,
         },
-        // {
-        //   type: "Source",
-        //   href: "https://github.com/magicuidesign/magicui",
-        //   icon: <Icons.github className="size-3" />,
-        // },
       ],
       image: "",
-      video:         "/projects/streetfoods.webm",
-
+      video: "/projects/streetfoods.webm",
     },
     {
-      title: "llm.report",
-      href: "https://llm.report",
-      dates: "April 2023 - September 2023",
+      title: "Aztechzone",
+      href: "https://aztechzone.com/",
+      dates: "Aug 2023 - Nov 2023",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
+        "MERN stack company website with an extensive admin dashboard for managing blogs, team profiles, and client-facing content.",
+      technologies: ["React", "MUI", "Bootstrap", "Express", "MongoDB", "Full Stack"],
       links: [
         {
           type: "Website",
-          href: "https://llm.report",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
-    },
-    {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
-      active: true,
-      description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://automatic.chat",
+          href: "https://aztechzone.com/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+      video: "/projects/aztechzone.webm",
+        },
+    {
+      title: "Cricmoney",
+      href: "https://www.crickmoney.com/",
+      dates: "Jul 2024 - Dec 2024",
+      active: true,
+      description:
+        "A gaming platform where users purchase tokens to play WebGL-based games. Integrated payment gateways (JazzCash, EasyPaisa) and built full-stack solution with Next.js.",
+      technologies: ["Next.js", "React", "TailwindCSS", "MongoDB", "Full Stack"],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.crickmoney.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/projects/crickmoney.png",
+      video: "",
     },
-  ],
+    {
+      title: "Mystery Madness",
+      href: "https://mysterymadness.co/",
+      dates: "2023",
+      active: true,
+      description:
+        "Web3 quiz DApp integrating Solana and Ethereum chains. Includes wallet connections, token transactions, and dynamic gameplay features.",
+      technologies: ["Next.js", "TailwindCSS", "Firebase", "Web3", "Full Stack"],
+      links: [
+        {
+          type: "Website",
+          href: "https://mysterymadness.co/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/projects/mysterymadness.webm",
+    },
+    {
+      title: "Spoflex",
+      href: "https://www.spoflex.com/",
+      dates: "2023",
+      active: true,
+      description:
+        "Sports forum platform with event management, community discussions, and real-time updates. Built with MERN stack and custom UI components.",
+      technologies: ["MERN", "React", "AntD", "Bootstrap", "Full Stack"],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.spoflex.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/projects/spoflex.png",
+      video: "",
+    },
+    {
+      title: "CrofundsMe",
+      href: "https://crofundsme.netlify.app/",
+      dates: "2023",
+      active: false,
+      description:
+        "Frontend of a crowdfunding platform built using React and AntD with clean UI and project showcase features.",
+      technologies: ["React", "AntD", "SCSS", "Frontend"],
+      links: [
+        {
+          type: "Website",
+          href: "https://crofundsme.netlify.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/projects/crofundsme.webm",
+    },
+    {
+      title: "Intraverse",
+      href: "https://play.intraverse.io/",
+      dates: "2022 - 2023",
+      active: true,
+      description:
+        "Web3 DApp integrating leaderboards, referral system, and wallet connections. Built with React, Firebase, and ANTD for dynamic gameplay and admin management.",
+      technologies: ["React", "Firebase", "ANTD", "SCSS", "Web3", "Full Stack"],
+      links: [
+        {
+          type: "Website",
+          href: "https://play.intraverse.io/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/projects/intraverse.webm",
+    },
+   
+    {
+      title: "Direct Portal",
+       dates: "2023",
+      active: false,
+      description:
+        "Project management software for internal use. Includes task tracking, milestones, and multi-role access.",
+      technologies: ["React", "MUI", "Express", "MongoDB", "Full Stack"],
+      image: "/projects/directportal.png",
+      video: "",
+    }
+  ]
+,  
   hackathons: [
     {
       title: "Hack Western 5",
