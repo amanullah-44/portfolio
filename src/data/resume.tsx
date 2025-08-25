@@ -327,6 +327,7 @@ export const DATA = {
    
     {
       title: "Direct Portal",
+      href:"",
        dates: "2023",
       active: false,
       description:
@@ -334,6 +335,7 @@ export const DATA = {
       technologies: ["React", "MUI", "Express", "MongoDB", "Full Stack"],
       image: "/projects/directportal.png",
       video: "",
+      links:[],
     }
   ]
 ,  
