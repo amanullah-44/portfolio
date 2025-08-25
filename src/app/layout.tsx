@@ -12,20 +12,32 @@ const fontSans = FontSans({
   variable: "--font-sans",
 });
 
+const title=`${DATA.name} - Full Stack Developer`
+
 export const metadata: Metadata = {
+
   metadataBase: new URL(DATA.url),
   title: {
-    default: DATA.name,
+    default: title,
     template: `%s | ${DATA.name}`,
   },
   description: DATA.description,
   openGraph: {
-    title: `${DATA.name}`,
+    title: `${title}`,
     description: DATA.description,
     url: DATA.url,
-    siteName: `${DATA.name}`,
+    siteName: `${title}`,
     locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: `${DATA.avatarUrl}`,
+        width: 1240,
+        height: 480,
+        alt: `${title}`,
+      },
+    ],
+    
   },
   robots: {
     index: true,
@@ -39,7 +51,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: `${DATA.name}`,
+    title: `${title}`,
     card: "summary_large_image",
   },
   verification: {
