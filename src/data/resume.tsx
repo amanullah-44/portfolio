@@ -9,7 +9,7 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/Pakistan",
   description:
     "Full-Stack Developer specializing in React, Next.js, Web3 integrations, and AI-driven apps.",
-  summary: 'I have a [background in computer science](/#education), which laid the foundation for my work in building scalable web applications. I’ve spent the last 2.5+ years building scalable web applications and dashboards with React, Next.js, and TypeScript. Recently, I [re-engineered CarAdvisers](https://www.caradvisers.com/), rewriting core components, business logic, and the admin panel to improve scalability and maintainability. I’ve worked on [projects](/#projects) in marketplaces, agency platforms, and Web3 integrations (Ethereum, Polygon, Solana) using wallets like WalletConnect and Phantom . My [experience](/#work) includes Node.js, Express, and Firebase for backend services and real-time data. Currently, I’m exploring AI and LLM integrations in Next.js, including local model setups and memory systems.',
+  summary: 'I have a [background](/#education) in computer science and over 2.5 years of experience building web applications with React, Next.js, and TypeScript. I contributed to [CarAdvisers](https://www.caradvisers.com/) by optimizing its core architecture and admin panel for better performance and maintainability. I’ve worked on [projects](/#projects) in marketplaces, agency platforms, and Web3 integrations (Ethereum, Polygon, Solana) using wallets like WalletConnect and Phantom. My [experience](/#work) also includes Node.js, Express, and Firebase for real-time backend services. I plan to explore AI and LLM integrations in Next.js for future projects.',
   avatarUrl: "/me.jpg",
 
   skills: [
